@@ -1,0 +1,31 @@
+<HTML> 
+    <HEAD><TITLE>ПЕРЕМЕЩЕНИЕ ИЗОБРАЖЕНИЯ МЫШКОЙ 
+    </TITLE> </HEAD> 
+    <BODY id="body1" STYLE="font-size:12pt"> 
+    < H2 align= "center"style= "color:#ff00ff"> 
+    Перетаскивание фотографии мышкой</h2> 
+    <P align= "center"> 
+    Фотография начинает двигаться при попадании на неё курсора мышки<BR> При захвате и перемещении фотографии не нажимайте кнопки мышки.<BR> Для прекращения движения щёлкните левой кнопкой мышки</p> 
+    <P align= right> Примечание. Страница правильно отображается тольков браузере <i>InternetExplorer 6.0</i></p> <img id= "IM1" src= "56a74b3f98663.pngs"" STYLE= "position:absolute;top:200;left:10"> 
+
+    <SCRIPT> flag= false //запрет на перемещения 
+    // Функция запускается припересечении 
+    // курсором мышки границы изображения 
+    function IM1onmouseover() 
+    {flag= true } 
+    // Перетаскивание разрешено 
+    function IM1onmousemove() 
+    { if (flag) 
+     { //пересчёткоординатизображения
+    document.all.IM1.style.top= event.clientY-170 
+    document.all.IM1.style.left=event.clientX-120
+     } 
+    }//запрет на перемещения. Запускается при отпускании кнопки мышки 
+    function IM1onclick() 
+    {flag=false } 
+    </SCRIPT> 
+    <SCRIPT language="JavaScript" src="ProvBrows.js"> 
+     </BODY> 
+    </script>
+    </HTML>
+    

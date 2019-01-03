@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type='text/xsl' href='base_of_students.xsl'?>
+<base_of_students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaseSchemaLocation="base_of_students.xsd"> 
+       <university nameU="НГУ">
+		<student>
+			<name>
+				<surname>Щербаненко</surname>
+				<first>Татьяна</first>
+				<second>Викторовна</second>
+			</name>
+			<course>3</course>
+			<group>Г-123</group>
+			<mark>3.5</mark>
+			<form>контракт</form>
+			<faculty>ГГФ</faculty>
+			<adress>ул.Кропоткина, 136-313</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Клавдеева</surname>
+				<first>Дарья</first>
+				<second>Алексеевна</second>
+			</name>
+			<course>1</course>
+			<group>М-149</group>
+			<mark>4.1</mark>
+			<form>контракт</form>
+			<faculty>ММФ</faculty>
+			<adress>ул.К.Маркса, 30-47</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Мирошниченко</surname>
+				<first>Александр</first>
+				<second>Александрович</second>
+			</name>
+			<course>5</course>
+			<group>ХИ-04</group>
+			<mark>4.3</mark>
+			<form>контракт</form>
+			<faculty>ХФ</faculty>
+			<adress>ул.Димитрова, 46-13</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Савинская</surname>
+				<first>Светлана</first>
+				<second>Максимовна</second>
+			</name>
+			<course>5</course>
+			<group>Б-06</group>
+			<mark>4.9</mark>
+			<form>контракт</form>
+			<faculty>ФЕН</faculty>
+			<adress>ул.Сиреневая, 37-31</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Матвиенко</surname>
+				<first>Иван</first>
+				<second>Васильевич</second>
+			</name>
+			<course>4</course>
+			<group>ММ-112</group>
+			<mark>4.9</mark>
+			<form>бюджет</form>
+			<faculty>ММФ</faculty>
+			<adress>ул.Дикопольцева, 12-57</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Доброва</surname>
+				<first>Маргарита</first>
+				<second>Юрьевна</second>
+			</name>
+			<course>3</course>
+			<group>Э-122</group>
+			<mark>4.4</mark>
+			<form>бюджет</form>
+			<faculty>ЭФ</faculty>
+			<adress>ул.Пирогова, 13-44</adress>
+		</student>
+	</university>
+	<university nameU="НГТУ">
+		<student>
+			<name>
+				<surname>Дворкин</surname>
+				<first>Антон</first>
+				<second>Михайлович</second>
+			</name>
+			<course>4</course>
+			<group>А-16</group>
+			<mark>4.5</mark>
+			<form>бюджет</form>
+			<faculty>АВТФ</faculty>
+			<adress>ул.Мира, 45-123</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Юрдин</surname>
+				<first>Денис</first>
+				<second>Андреевич</second>
+			</name>
+			<course>2</course>
+			<group>ЛА-34</group>
+			<mark>5.0</mark>
+			<form>контракт</form>
+			<faculty>ФЛА</faculty>
+			<adress>ул.Красный проспект, 118-98</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Гимельберг</surname>
+				<first>Александр</first>
+				<second>Феликсович</second>
+			</name>
+			<course>4</course>
+			<group>Т-15</group>
+			<mark>3.8</mark>
+			<form>контракт</form>
+			<faculty>МТФ</faculty>
+			<adress>ул.Плахотного, 87-63</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Лобанова</surname>
+				<first>Ольга</first>
+				<second>Матвеевна</second>
+			</name>
+			<course>1</course>
+			<group>ПМ-44</group>
+			<mark>4.0</mark>
+			<form>бюджет</form>
+			<faculty>ФПМИ</faculty>
+			<adress>ул.Петропавловская, 12-9</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Тихонова</surname>
+				<first>Ольга</first>
+				<second>Валерьевна</second>
+			</name>
+			<course>4</course>
+			<group>РЭ-13</group>
+			<mark>3.6</mark>
+			<form>контракт</form>
+			<faculty>РЭФ</faculty>
+			<adress>ул.Молодежная, 234-170</adress>
+		</student>
+		<student>
+			<name>
+				<surname>Лоскутов</surname>
+				<first>Артём</first>
+				<second>Игоревич</second>
+			</name>
+			<course>3</course>
+			<group>РЭ-25</group>
+			<mark>3.9</mark>
+			<form>контракт</form>
+			<faculty>РЭФ</faculty>
+			<adress>ул.Широкая, 34-567</adress>
+		</student>
+	</university>
+		
+</base_of_students>

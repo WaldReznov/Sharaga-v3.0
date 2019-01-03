@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<xs:schema id="Harakter" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Harakter">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Osnovnie">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="proizvoditel"/>
+              <xs:element type="xs:string" name="model"/>
+              <xs:element type="xs:string" name="dlina"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Video">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:short" name="videopamyat"/>
+              <xs:element type="xs:string" name="RAMDAC"/>
+              <xs:element type="xs:string" name="HDCP"/>
+              <xs:element type="xs:string" name="API"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Pamyat">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="tip"/>
+              <xs:element type="xs:short" name="shina"/>
+              <xs:element type="xs:string" name="chastota"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Config">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="chip"/>
+              <xs:element type="xs:string" name="chastota_chipa"/>
+              <xs:element type="xs:short" name="kol-vo_processorov"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Razemi">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="porti"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="Interface"/>
+        <xs:element name="Ohlazhdenie">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="upravlenie"/>
+              <xs:element type="xs:string" name="ohlazhdenie"/>
+            <xs:sequence>
+          </xs:complexType>
+        <xs:element name="Sovmestimost">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="pitanie"/>
+              <xs:element type="xs:string" name="os"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+    </style>
+
+    <button ID="B1" onclick=Start_stop() STYLE="position:absolute;left:300px;top:5px">Запустить</button>
+    <img ID="LV" src="../лаба 18/Photo profil.jpg" alt="" STYLE="position:absolute;top:0;left:20">
+
+</body>
+<script>
+    dx = 8
+    dy = 3
+    st = false//остановить процесс 
+    function Start_stop() {
+        if (st) {
+            window.clearInterval(proc) //остановиться 
+            st = false //заменить надпись на кнопке с именем В1 
+            document.all.B1.innerHTML = "Запустить"
+        } else //двигаться (запустить процесс с именем proc) 
+        {
+            proc = window.setInterval("move()", 100)
+            st = true
+            //заменить надпись на кнопке с именем В1 
+            document.all.B1.innerHTML = "Стоп"
+        }
+    }
+
+    function move() { //ордината верхнего края фотографии (переведено
+        //в тип INTEGER) 
+        var y = parseInt(document.all.lv.style.top)
+        //абсцисса левого края фотографии 
+        var x = parseInt(document.all.lv.style.left)
+        document.all.lv.style.top = y + dy //Перемещение по OY 
+        document.all.lv.style.left = x + dx //Перемещение по OX
+    }
+</script>   
+</html>
+
+<!-- 
+<HTML> 
+<HEAD><TITLE>ПЕРЕМЕЩЕНИЕ ИЗОБРАЖЕНИЯ МЫШКОЙ 
+</TITLE></HEAD> 
+<BODY id="body1" STYLE="font-size:12pt"></BODY>
+< H2 align= "center"style= &quot;color:#ff00ff&quot;&gt; 
+Перетаскивание фотографии мышкой&lt;/h2&gt; 
+&lt;P align= &quot;center&quot;&gt; 
+Фотография начинает двигаться при попадании на неё курсора мышки&lt;BR&gt; При
+захвате и перемещении фотографии не нажимайте кнопки мышки.&lt;BR&gt; Для
+прекращения движения щёлкните левой кнопкой мышки&lt;/p&gt; 
+&lt;P align= right&gt; Примечание. Страница правильно отображается тольков браузере
+&lt;i&gt;InternetExplorer 6.0&lt;/i&gt;&lt;/p&gt; &lt;img id= &quot;IM1&quot; src= &quot;LV.jpg&quot;&quot; STYLE=
+&quot;position:absolute;top:200;left:10&quot;&gt; 
+&lt;/BODY&gt; 
+&lt;SCRIPT&gt; flag= false //запрет на перемещения 
+// Функция запускается припересечении 
+// курсором мышки границы изображения 
+function IM1.onmouseover() 
+{flag= true } 
+// Перетаскивание разрешено // 
+function IM1.onmousemove() 
+{ if (flag) 
+
+ { //пересчёткоординатизображения
+document.all.IM1.style.top= event.clientY-170 
+document.all.IM1.style.left=event.clientX-120
+ } 
+}//запрет на перемещения. Запускается при отпускании кнопки мышки 
+function IM1.onclick() 
+{flag=false } 
+&lt;/SCRIPT&gt; 
+&lt;SCRIPT language=&quot;JavaScript&quot; src=&quot;ProvBrows.js&quot;&gt; 
+&lt;/script&gt; 
+&lt;/HTML&gt; -->

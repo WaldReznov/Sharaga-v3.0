@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<xs:schema id="NewDataSet" targetNamespace="http://tempuri.org/base_of_students.xsd"
+	xmlns:mstns="http://tempuri.org/base_of_students.xsd" xmlns="http://tempuri.org/base_of_students.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+	attributeFormDefault="qualified" elementFormDefault="qualified">
+	<xs:element name="base_of_students" msdata:IsDataSet="true" msdata:Locale="ru-RU" msdata:EnforceConstraints="False">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="university" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="student" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="name">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="surname" type="xs:string" />
+													<xs:element name="first" type="xs:string" />
+													<xs:element name="second" type="xs:string" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="course">
+											<xs:simpleType>
+												<xs:restriction base="xs:positiveInteger">
+													<xs:enumeration value="1" />
+													<xs:enumeration value="2" />
+													<xs:enumeration value="3" />
+													<xs:enumeration value="4" />
+													<xs:enumeration value="5" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="group" type="xs:string" />
+										<xs:element name="mark">
+											<xs:simpleType>
+												<xs:restriction base="xs:decimal">
+													<xs:totalDigits value="2" />
+													<xs:fractionDigits value="1" />
+													<xs:minExclusive value="2.0" />
+													<xs:maxInclusive value="5.0" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="form" type="xs:string" />
+										<xs:element name="faculty" type="xs:string" />
+										<xs:element name="adress" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="nameU" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+            table, td{
+                border: 1px solid #ccc;
+                border-collapse: collapse;
+                table-layout: fixed;
+                border-spacing: 0;
+            }
+            td{
+                padding: 4px;
+            }
+            td input{
+                width: 100%;
+                padding: 4px;
+                margin: 0;
+                border: none;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                font: inherit;
+                height: 28px;
+            }
+            td input:focus{
+                outline: 1px solid blue;
+            }
+            .editable td{
+                padding: 0;
+            }
+            #edit{
+                width: 400px;
+            }
+        </style>
+    <title>Document</title>
+</head>
+<body>
+        <table id="edit">
+                <tbody>
+                    <tr id="0">
+                        <td data-type="text">Бетмен</td>
+                        <td><input id=i1 value=30 onchange=f()></td>
+                        <td data-type="date">1989-04-28</td>
+                    </tr>
+                    <tr id="1">
+                        <td data-type="text">Бетмен</td>
+                        <td><input id=i2 value=30 onchange=f()></td>
+                        <td data-type="date">1989-04-28</td>
+                    </tr>
+                    <tr id="2">
+                        <td data-type="text">Бетмен</td>
+                        <td><input id=i3 value=30 onchange=f()></td>
+                        <td data-type="date">1989-04-28</td>
+                    </tr>
+                    <tr id="3">
+                            <td data-type="text">Сумма</td>
+                            <td><input id=i4 value=30 onchange=f()></td>
+                            <td data-type="date"></td>
+                        </tr>
+                </tbody>
+            </table>
+            </button>
+            <script>
+            function f(){
+                var n1=document.getElementById('i1').value;
+            var n2=document.getElementById('i2').value;
+                var n3=document.getElementById('i3').value
+            document.getElementById('i4').value=Number(n1)+Number(n2)+Number(n3);
+            
+                };
+            </script>
+</body>
+</html>

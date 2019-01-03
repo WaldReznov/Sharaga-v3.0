@@ -1,0 +1,18 @@
+<!DOCTYPE base_of_students 
+[
+<!ELEMENT base_of_students (university*)>
+<!ELEMENT university (student+)>
+<!ATTLIST university nameU ID #REQUIRED>
+<!ELEMENT student (name,course,group,mark,form,faculty,adress)>
+<!ELEMENT name (surname,first,second)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT second (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT group (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>
+<!ELEMENT form (#PCDATA)>
+<!ELEMENT fuculty (#PCDATA)>
+<!ELEMENT adress (#PCDATA)>
+]
+>

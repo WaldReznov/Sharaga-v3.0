@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='price-list.xsl'?>
+<Price-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaseSchemaLocation="price-list.xsd">
+    <firm>
+        <name>ООО "Компьютер</name>
+        <adress>
+            <city>Новосибирск</city>
+            <street>ул. Гоголя</street>
+            <house>32</house>
+            <phone-list>
+                <phone>215678</phone>
+            </phone-list>
+        </adress>
+        <good name="Мониторы">
+            <description>
+                <model>LG "FLATRON ez T710PH"</model>
+                <parametrs>17"</parametrs>
+                <price>150</price>
+            </description>
+            <description>
+                <model>SAMSUNG</model>
+                <parametrs>17"</parametrs>
+                <price>150.50</price>
+            </description>
+            <description>
+                <model>SAMSUNG 710N (SSS) TFT Silver</model>
+                <parametrs>17"</parametrs>
+                <price>376.30</price>
+            </description>
+        </good>
+        <good name="Процессоры">
+            <description>
+                <model>ATLON</model>
+                <parametrs>XP 2000+</parametrs>
+                <price>54.20</price>
+            </description>
+            <description>
+                <model>ATLON</model>
+                <parametrs>XP 2500+(Barton)</parametrs>
+                <price>81.85</price>
+            </description>
+            <description>
+                <model>ATLON</model>
+                <parametrs>XP 2800+(Barton)</parametrs>
+                <price>120.71</price>
+            </description>
+        </good>
+    </firm>
+    <firm>
+        <name>НЭТА</name>
+        <adress>
+            <city>Новосибирск</city>
+            <street>пр-т К. Маркса</street>
+            <house>20, корпус 2</house>
+            <phone-list>
+                <phone>(3832)46-05-05</phone>
+                <phone>(3832)54-10-10</phone>
+            </phone-list>
+        </adress>
+        <adress>
+            <city>Новосибирск</city>
+            <street>ул. Советская</street>
+            <house>30</house>
+            <phone-list>
+                <phone>(3832)18-22-18</phone>
+                <phone>(3832)27-10-27</phone>
+            </phone-list>
+        </adress>
+        <adress>
+            <city>Новосибирск</city>
+            <street>ул. Д. Ковальчук</street>
+            <house>179/2</house>
+            <phone-list>
+                <phone>(3832)16-33-11</phone>
+            </phone-list>
+        </adress>
+        <adress>
+            <city>Барнаул</city>
+            <street>пр. Ленина</street>
+            <house>5</house>
+            <zip>656092</zip>
+            <phone-list>
+                <phone>(3852)23-10-00</phone>
+                <phone>(3852)35-31-32</phone>
+            </phone-list>
+        </adress>
+        <good name="Мониторы">
+            <description>
+                <model>LG "FLATRON ez T710PH"</model>
+                <parametrs>17"</parametrs>
+                <price>150</price>
+            </description>
+            <description>
+                <model>SAMSUNG</model>
+                <parametrs>17"</parametrs>
+                <price>150.50</price>
+            </description>
+            <description>
+                <model>SAMSUNG 710N (SSS) TFT Silver</model>
+                <parametrs>17"</parametrs>
+                <price>376.30</price>
+            </description>
+        </good>
+        <good name="Процессоры">
+            <description>
+                <model>ATLON</model>
+                <parametrs>XP 2000+</parametrs>
+                <price>54.20</price>
+            </description>
+            <description>
+                <model>ATLON</model>
+                <parametrs>XP 2500+(Barton)</parametrs>
+                <price>81.85</price>
+            </description>
+            <description>
+                <model>ATLON</model>
+                <parametrs>XP 2800+(Barton)</parametrs>
+                <price>120.71</price>
+            </description>
+        </good>
+    </firm>
+</Price-list>

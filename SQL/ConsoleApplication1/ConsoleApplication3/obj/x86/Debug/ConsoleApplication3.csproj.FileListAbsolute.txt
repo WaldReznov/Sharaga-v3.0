@@ -1,0 +1,5 @@
+D:\Q\БД\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.exe
+D:\Q\БД\ConsoleApplication1\ConsoleApplication3\bin\Debug\ConsoleApplication3.pdb
+D:\Q\БД\ConsoleApplication1\ConsoleApplication3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Q\БД\ConsoleApplication1\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.exe
+D:\Q\БД\ConsoleApplication1\ConsoleApplication3\obj\x86\Debug\ConsoleApplication3.pdb

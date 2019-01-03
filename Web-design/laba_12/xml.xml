@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Harakter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaseSchemaLocation="Harakter.xsd">
+	<Osnovnie>
+		<proizvoditel>ASUS</proizvoditel>
+		<model>EAH6670/DI/512MD5</model>
+		<dlina>170 мм</dlina>
+	</Osnovnie>
+
+	<Video>
+		<videopamyat>512</videopamyat>
+		<RAMDAC>400 МГц, 10 бит на канал.</RAMDAC>
+		<HDCP>Есть (1080p)</HDCP>
+		<API>DirectX 11 и OpenGL 3.2 </API>
+	</Video>
+	<Pamyat>
+		<tip>ddr5</tip>
+		<shina>256</shina>
+		<chastota>1000 МГц</chastota>
+	</Pamyat>
+	<Config>
+		<chip>Radeon HD 5670</chip>
+		<chastota_chipa>775 МГц</chastota_chipa>
+		<kol-vo_processorov>400</kol-vo_processorov>
+	</Config>
+	<Razemi>
+		<porti>D-sub,dvi</porti>
+	</Razemi>
+	<Interface>PCI Express 2.1</Interface>
+	<Ohlazhdenie>
+		<upravlenie>net</upravlenie>
+		<ohlazhdenie>activ</ohlazhdenie>
+	</Ohlazhdenie>
+	<Sovmestimost>
+		<pitanie>400 Вт</pitanie>
+		<os>Windows XP x64, Windows XP, Windows MCE 2005, Windows Vista, Windows 7</os>
+	</Sovmestimost>
+</Harakter>

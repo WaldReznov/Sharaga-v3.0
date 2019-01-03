@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js">
+</script>
+<script>
+$(document).ready(function () {
+$("input").focus(function () {
+$(this).css("background-color", "#cccccc");
+});
+$("input").blur(function () {
+$(this).css("background-color", "#000000");
+});
+});
+</script>
+</head>
+<body>
+<button id="go">Запустить анимацию</button>
+Name: <input type="text" class="block" name="fullname"><br>
+Email: <input type="text" class="block" name="email">
+<script>
+$('#go').on('click', f_startAnimation);
+ 
+ function f_startAnimation() {
+   $('.block')
+     .animate({
+     width: '100px',
+     height: '100px',
+     background: 'red'
+   }, 3000)
+     .animate({
+     'margin-left': '150px',
+     'margin-top': '150px'
+   }, 3000)
+   
+ }
+ 
+</script>
+</body>
+</html>

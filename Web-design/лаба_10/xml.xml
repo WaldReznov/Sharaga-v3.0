@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet type="text/css" href="file.css"?>
+<FILE_1>
+    <STUDENT>
+        <First>
+            <FIO>Andreev</FIO>
+            <Name>sergei</Name>
+            <OTCH>VIKTOROVICH</OTCH>
+        </First>
+    </STUDENT>
+    <STUDENT>
+        <Two>
+            <FIO>Andreev</FIO>
+            <Name>sergei</Name>
+            <OTCH>VIKTOROVICH</OTCH>
+        </Two>
+    </STUDENT>
+    <STUDENT>
+        <Three>
+            <FIO>Andreev</FIO>
+            <Name>sergei</Name>
+            <OTCH>VIKTOROVICH</OTCH>
+        </Three>
+    </STUDENT>
+    <STUDENT>
+        <Fo>
+            <FIO>Andreev</FIO>
+            <Name>sergei</Name>
+            <OTCH>VIKTOROVICH</OTCH>
+        </Fo>
+    </STUDENT>
+</FILE_1>

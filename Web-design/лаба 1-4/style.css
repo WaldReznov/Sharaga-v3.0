@@ -1,0 +1,27 @@
+header,footer{
+	background:#d2e4af;
+}
+aside,nav{
+	background:#c3db94;
+}
+nav{
+	width: 40%;
+	display:flex;
+	flex-direction: column;
+}
+aside{
+	width: 60%;
+}
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+}
+.center{
+	display:flex;
+}
+header,footer,aside,nav{
+	border:1px solid #000;
+}

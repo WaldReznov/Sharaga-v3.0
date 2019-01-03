@@ -1,0 +1,14 @@
+header{
+	text-align: center;
+	background: url(56a746830ef88.png) no-repeat;
+	display: grid;
+	grid-template-rows: 50px;
+	grid-template-columns: 86px 86px 86px 86px 86px;
+}
+.header>div{
+	cursor: pointer;
+}
+.mod{
+	width: 86px;
+	height: 50px
+}

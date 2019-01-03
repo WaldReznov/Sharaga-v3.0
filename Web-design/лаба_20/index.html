@@ -1,0 +1,39 @@
+<HTML> 
+    <HEAD><TITLE>Движение фотографии</TITLE> 
+    </HEAD> 
+    <BODY > 
+    <BUTTON ID="B1" onclick=Start_stop() 
+    STYLE="position:absolute; right:300;top:5"> 
+    Запустить</button> 
+    <IMG ID="lv" src="56a74b3f98663.png" 
+    STYLE="position:absolute;top:0;left:20"> 
+    </BODY> 
+    <SCRIPT> 
+    dx=8; 
+    dy=3 
+    st=false //остановить процесс 
+    function Start_stop() 
+    { if(st) 
+      { window.clearInterval(proc) //остановиться 
+        st=false //заменить надпись на кнопке с именем В1 
+        document.all.B1.innerHTML="Запустить" 
+      } 
+      else //двигаться (запустить процесс с именем proc) 
+      { proc=window.setInterval("move()",100)
+    st=true 
+    //заменить надпись на кнопке с именем В1 
+    document.all.B1.innerHTML="Стоп"
+      } 
+    } 
+    function move() 
+    { //ордината верхнего края фотографии (переведено
+    //в тип INTEGER) 
+    var y=parseInt(document.all.lv.style.top) 
+    //абсцисса левого края фотографии 
+    var x=parseInt(document.all.lv.style.left) 
+    document.all.lv.style.top=y+dy //Перемещение по OY 
+    document.all.lv.style.left=x+dx //Перемещение по OX
+    } 
+    </script> 
+    </HTML>
+    

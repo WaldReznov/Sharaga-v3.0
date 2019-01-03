@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="file.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <XML id="dsoXML" SRC="F:\GITHUB DESCTOP\Lecture\Web-design\лаба_13\xml.xml"></XML>
+    <H2>Список студентов</H2>
+    <div class="center">
+        <input type="button" class="button" onclick="myTable.firstPage ()" value="|< First " />
+        <input type="button" class="button" onclick="myTable.previousPage ()" value="< Previous " />
+        <input type="button" class="button" onclick="myTable.nextPage ()" value=" Next >" />
+        <input type="button" class="button" onclick="myTable.lastPage ()" value=" Last >|" />
+    </div>
+    <Table id="myTable" datapagesize="2" dataSRC="#dsoXML" BORDER="6" CELLPADDING="5" width="100%">
+        <THEAD style="background-color: maroon">
+            <TH>Фамилия</TH>
+            <TH>Имя</TH>
+            <TH>Отчество</TH>
+        </THEAD>
+        <TR ALIGN="center">
+            <TD><SPAN DATAFLD="FIO"></SPAN></TD>
+            <TD><SPAN DATAFLD="Name"></SPAN></TD>
+            <TD><SPAN DATAFLD="OTCH"></SPAN></TD>
+        </TR>
+    </Table>
+</body>
+
+</html>

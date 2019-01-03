@@ -1,0 +1,28 @@
+STUDENT{
+    display:block;
+    margin-top: 12px;
+    font-size: 20pt;
+}
+First{
+    background: #888888;
+}
+Two{
+    background: #374737;
+}
+Three{
+    background: #243211;
+}
+Fo{
+    background: teal;
+}
+.button{
+    border:2px solid #999999;
+    padding:20px;
+    background:yellowgreen;
+    font-family: fantasy;
+    font-size:20px;
+}
+.center{
+    display:flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,126 @@
+.header1{
+  grid-area: header1;
+}
+.main12 {
+  grid-area: main12;
+}
+.main13 {
+  grid-area: main13;
+}
+.main14 {
+  grid-area: main14;
+}
+.main1 {
+  grid-area: main1;
+}
+.main22 {
+  grid-area: main22;
+}
+.main23 {
+  grid-area: main23;
+}.main24 {
+  grid-area: main24;
+}.main32 {
+  grid-area: main32;
+}.main33 {
+  grid-area: main33;
+}.main34 {
+  grid-area: main34;
+}
+.container {
+display:grid;
+	margin: 100px;
+  grid-template-columns: 150px 150px 150px;
+  grid-template-rows: 20px;
+  grid-template-areas: 
+    "header1 header1 header1 "
+    "main1 main1 main1"
+    "main12 main22 main32"
+    "main13 main23 main33"
+    "main14 main24 main34";
+}
+.class1 {
+  grid-area: class1;
+}
+.class2 {
+  grid-area: class2;
+}
+.class3 {
+  grid-area: class3;
+}
+.class4 {
+  grid-area: class4;
+}
+.class5 {
+  grid-area: class5;
+}
+.class6 {
+  grid-area: class6;
+}
+.class7 {
+  grid-area: class7;
+}
+.class8 {
+  grid-area: class8;
+}.class9 {
+  grid-area: class9;
+}
+.class10 {
+  grid-area: class10;
+}
+.class11 {
+  grid-area: class11;
+}
+.class12 {
+  grid-area: class12;
+}
+.class13 {
+  grid-area: class13;
+}
+.class14 {
+  grid-area: class14;
+}
+.class15 {
+  grid-area: class15;
+}
+.class16 {
+  grid-area: class16;
+}
+.class17 {
+  grid-area: class17;
+}
+.class18 {
+  grid-area: class18;
+}
+.class19 {
+  grid-area: class19;
+}
+.class20 {
+  grid-area: class20;
+}
+.class21 {
+  grid-area: class21;
+}
+.class22 {
+  grid-area: class22;
+}
+
+.container2 {
+	margin: 100px;
+display:grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 20px;
+  grid-template-areas: 
+    "class1 class1 class1 "
+    "class2 class3 class4 "
+    "class5 class6 class11 "
+    "class5 class7 class12 "
+    "class5 class8 class13 "
+    "class5 class9 class14 "
+    "class5 class10 class10 "
+    "class15 class16 class20 "
+    "class15 class17 class21 "
+    "class15 class18 class22 "
+    "class15 class19 class19 "
+    ;
+}
